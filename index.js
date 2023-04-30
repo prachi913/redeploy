@@ -18,7 +18,7 @@ app.use(express.json());
 // app.get("/", (req, res) => {
 //   res.send("hi");
 // });
-app.use("/users", userrouter);
+app.use("/user", userrouter);
 
 app.use(auth);
 app.use("/note", notesrouter);
